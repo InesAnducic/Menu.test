@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+}
+.menu_bar {
+    height:80px;
+    width:100%;
+}
+
+a {
+    text-decoration: none;
+  color: #3affff;
+}
+
+.element> ul li {
+    display: none;
+}
+
+.element:hover > ul li {
+    display: block;
+    transition: display 2s;
+}
+.element2> ul li {
+    display: none;
+}
+
+.element2:hover > ul li {
+    display: block;
+    transition: display 2s;
+}
+.element3> ul li {
+    display: none;
+}
+
+.element3:hover > ul li {
+    display: block;
+    transition: display 2s;
+}
+.element4> ul li {
+    display: none;
+}
+
+.element4:hover > ul li {
+    display: block;
+    transition: display 2s;
+}
